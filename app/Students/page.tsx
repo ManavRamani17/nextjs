@@ -11,9 +11,9 @@ async function Students() {
         {data.map((stu:any)=>{
             return(
                     
-                    <Link className='bg-cyan-600 text-white w-7/8 flex justify-center items-center border rounded-lg m-2 transform active:scale-95 duration-500' href={"/Students/"+stu.id}>
+                    <Link key={stu.id} className='bg-cyan-600 text-white w-7/8 flex justify-center items-center border rounded-lg m-2 transform active:scale-95 duration-500' href={"/Students/"+stu.id}>
                         <div >
-                            <h1 className=" text-white text-3xl">{stu.id}. {stu.StuName}</h1>
+                            <h1  className=" text-white text-xl">{stu.id}. {stu.StuName}</h1>
                         </div>
                     </Link>
             )

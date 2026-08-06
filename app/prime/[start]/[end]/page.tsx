@@ -10,7 +10,6 @@ async function Prime({params}: {params: Promise<{ start: string; end: string }>}
 
   for (let i = startNum; i <= endNum; i++) {
     if (i < 2) continue;
-
     let isPrime = true;
 
     for (let j = 2; j <= Math.sqrt(i); j++) {

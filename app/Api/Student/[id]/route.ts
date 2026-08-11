@@ -1,4 +1,3 @@
-
 export const data = [
             {id:1, Name:"Manav",RollNo:579},
             {id:2, Name:"Jenil",RollNo:493},

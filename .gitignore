@@ -41,6 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 /app/generated/prisma
-nextjs/.agents
-nextjs/.claude
-nextjs/.windsurf
+nextjs/.agents/skills
+nextjs/.claude/skills
+nextjs/.windsurf/skills
